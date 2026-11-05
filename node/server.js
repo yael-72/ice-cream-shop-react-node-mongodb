@@ -1,7 +1,7 @@
 const express = require('express')
 const app = express()
 require("dotenv").config()
-const PORT = process.env.PORT || 2222
+const PORT = process.env.PORT || 1111
 const cors = require('cors')
 const corsOption = require('./config/corsOptions')
 const connectToDB = require('./config/connectDB')

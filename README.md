@@ -79,7 +79,7 @@ cd node
 npm install
 ```
 
-Create `node/.env`:
+Copy `node/.env.example` to `node/.env` and fill in your values:
 
 ```env
 DB_URI=mongodb://localhost:27017/ice-cream-shop

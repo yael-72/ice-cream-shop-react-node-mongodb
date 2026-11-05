@@ -7,7 +7,7 @@ const adminMW=require('../middleware/adminMW')
 router.get('/', productController.getAllProducts)
 router.get('/:id', productController.getProductById)
 
-// router.use(adminMW)
+router.use(adminMW)
 
 router.post('/', productController.addProduct)
 router.put('/', productController.updateProduct)
